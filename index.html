@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>змейка</title>
+</head>
+<body style="background: #202 url(back.jpg); margin: 0;  color: white;" link="#88f" alink="#f88" vlink="#f8f">
+    <div style=" background: #0008;">
+        <img src="progmanAlfa.png" alt="" style="margin: auto; display: block; max-width: 800px;" width="100%">
+    </div>
+    <div style="margin: auto; display: block; max-width: 800px; padding: 0 10px; font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <p>I am a programmer with skills in c++, c#, javascript, WebGL, Shaders. I work in Blender, Unity, Photoshop. I create assets for Unity, Unreal engine.</p>
+    </div>
+    <div style="margin: auto; max-width: 500px;">
+        <div id="snake3d" style="cursor: progress;">
+            <div id="loading" style="text-align: center; padding: 100px; margin: 50px; background: #0008;"> loading...</div>
+        </div>           
+        <div style="max-width: 250px; margin: 0 auto;  bottom: 60px; color: white; font-size: large; z-index: 0;position: relative;">
+            <div style="display: inline;">
+                Speed <input type="range" id="speed"  value="100" min="1" max="200">
+            </div>
+            <div id="score" style=" display: inline; position: absolute; right: 10px;">0</div>
+        </div>
+    </div>
+
+    <div style=" background: #0008; position: fixed; bottom: 0; width: 100%;">
+        <div style="margin: auto; display: block; max-width: 800px; padding: 0 10px; font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <p>
+                Email: <a href="mailto:progmangame@gmail.com">progmangame@gmail.com</a>  Unity assets: <a href="https://assetstore.unity.com/publishers/63124?preview=1">Unity assets store</a> 
+            </p>
+        </div>
+</div>
+    <script src="Snake3Dbot.js"></script>
+    <script type="module" src="v1.js"></script>
+</body>
+</html>
